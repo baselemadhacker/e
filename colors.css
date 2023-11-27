@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(download.png) ;
+    background-size: cover;
+    height: 100vh;        
+}
+.navbar{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.4)
+}
+
+.navbar.logo{
+width: 140px;
+height:auto;
+padding: 20px 100px;
+
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+    direction: rtl;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+    
+}
+.navbar ul li a{
+    font-size: 20px;
+    color: white;
+    padding: 6px 13px;
+    text-decoration: none;
+    transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover
+
+{
+    background: #52b9ef;
+    border-radius: 10px;
+
+}
+.home.center{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    user-select: none;
+}
+.center h1{
+    color: white;
+    font-size: 35px;
+    width: 900px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.center h2{
+    color: white;
+    font-size: 70px;
+    width: 885px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align:  right;  
+}
+.center .buttons{
+    margin: 70px 560px ;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    background: #234859;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #52b9ef  ;
+    border-radius: 25px;
+    transition: .4s;
+}
+
+
+
+.buttons button:hover{
+    background: #52b9ef;
+    margin-right: 50px;
+}
+
+
+
+.buttons{
+    margin-left: 50px;
+    display: flex;
+}
+.index-news{
+    width: 1124px;
+    transition: all 1.5;
+    overflow: hidden;
+    margin: auto;
+    display: block;
+    margin-top: 10%;
+}
+.container{
+    float: right;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 24%;
+    height: 320px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #00000073;
+    transition: all 0.3s;
+
+
+}
+
+.container:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 11px 14px rgb(0 0 0 / 25% ) , 0 8px 20px rgb(0 0 0 10%) ;
+}
+.img-container{
+    display: block;
+    width: 100%;
+    height: 140px;
+    overflow: hidden;
+}
+.img-container img{
+    width: 100%;
+}
+
+.text-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 110px;
+    padding: 10px 20p;
+
+}
+.text-container{
+    padding: 0;
+    margin: 10px 0 ;
+    font-size: 20px;
+    color: #0076b6;
+
+}
+.text-container .span1{
+    font-size: 13px;
+    text-align: center;
+    color: #373737;
+
+}
+.btn-container{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+
+}
+.btn-container .btn{
+    width: 100%;
+    padding: 6px 0 ;
+    text-decoration: none;
+    background: linear-gradient(125deg,#52b93f 0%,#0091a7 60%);
+    color: white;
+    border-radius: 14px;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+.btn-container .btn:hover{
+    padding-left: 15px;
+}
+.center h1{
+    color: black;
+    font-size: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h2{
+    font-size: 2,1rem;
+    font-weight: 400;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0 ;
+}
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.socials a i {
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.footer-bottom p{
+    float: left;
+    font-size: 14px;
+}
+.footer-menu{
+    float: right;
+}
+.footer-menu ul {
+    display: flex;
+    direction: rtl;
+}
+.footer-menu ul li{
+    padding-right: 10px;
+    display: block;
+}
+.footer-menu ul li a
+{
+color: white;
+text-decoration: none;
+}
+.footer-menu ul li a:hover{
+color: dodgerblue;
+}
+
+@media screen and(max-width:1124px){
+    .index-news{
+        width: 562px;
+        height: 728px;
+
+    }
+    .home{
+        background-size: cover;
+        background-position: bottom;
+        width: auto;
+
+    }
+    .center h1{
+      font-size: 30px;
+    }
+    .center h2{
+        font-size: 25px;
+      }
+      .mov-manu{
+        display: table;
+        width: 25px;
+      }
+    .mov-manu ul li {
+        width: 100%;
+        height: 3px;
+       
+       margin-bottom: 4px;
+       list-style: none;
+
+    }
+    
+}
+    
+@media screen and(max-width:980px){
+    input[type=checkbox]
+    {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+        background: none;
+    }
+    input[type=checkbox]:focus{
+        background: none;
+    }
+    label{
+        float: none ;
+        padding: 8px 0px ;
+        display: inline-block;
+        cursor: pointer;
+    
+    }
+    input[type=checkbox]:checked ~ nav {display: block }
+    nav,.navbar{
+        display: none;
+        position: absolute;
+        right: 0px;
+        top: 53px;
+        padding: 0px;
+        z-index: 99;
+    }
+    nav ul {
+        width: auto;
+    }
+    nav ul i {
+        float: none;
+        padding: 0px;
+        width: 100%;
+        display: table;
+        text-align: center;
+        background-color: #002e5b;
+
+    }
+  nav ul i a{
+    color:#fff;
+    font-size: 15px;
+    padding: 10px 20px;
+    display: block;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    
+  }
+  
+
+
+
+    .index-news{
+        width: 281px;
+        height: 1496px;
+}
+    .home{
+        background-size: cover;
+        background-position: bottom;
+        width: auto;
+        overflow: hidden;
+    }
+
+     .footer-menu ul{
+        display: flex;
+        margin-top: 4px;
+        margin-bottom: 20px;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
